@@ -12,11 +12,8 @@ from typing import Dict, Union
 
 # A list of plugin IDs to use
 PLUGIN_IDS: list = [
-    "ws281x_led_status",
-    "eeprom_marlin",
-    "autologin_config",
-    "virtual_printerconfig",
-    "wled",
+    "dashboard",
+    "inlineconfirm"
 ]
 
 DATA_URL: str = "https://data.octoprint.org/export/"
